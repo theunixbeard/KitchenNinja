@@ -1,0 +1,27 @@
+ToDo:
+
+Pre-Launch Goals
+  Explain business concept and gauge interest. 
+    Explain via homepage, blog
+    Gauge interest via Google Analytics, beta email signup.
+
+Major:
+  Add Google Analytics to layout.erb
+  Should site be in a div container-narrow? Or should it be widened
+  Homepage w/ link to submit email for beta program
+  Add Blog (3rd party software type)
+  1-Click Deployment on Free AWS server
+  About page, Contact page content (Max?)
+  Logo Graphic (Max?)
+--------------------Initial Launch Cutoff----------------------------
+  Add Max to Github
+  Gym Owner pitch page
+  Setup credit card payments (Stripe)
+    -Database schema additions (addresses, etc.)
+-------------------Accepting Payments/Gym Ready/Real Launch-------------------
+
+
+
+Minor:
+  Datamapper password min length enforcement
+  Description meta tag for SEO
