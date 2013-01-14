@@ -6,10 +6,11 @@ Pre-Launch Goals
     Gauge interest via Google Analytics, beta email signup.
 
 Major:
-  Should site be in a div container-narrow? Or should it be widened
   Homepage w/ link to submit email for beta program
-  Add Blog (3rd party software type)
-  1-Click Deployment on Free AWS server
+  Auth Features:
+    Forgot Password, Remember Me
+  Should site be in a div container-narrow? Or should it be widened
+  Create 3 Blog posts on our Tumblr
   About page, Contact page content (Max?)
   Logo Graphic (Max?)
 --------------------Initial Launch Cutoff----------------------------
@@ -22,3 +23,14 @@ Major:
 
 
 Minor:
+
+
+
+Implementation Details:
+  Table for email beta signup: (Google it)
+    id
+    email
+    date created
+    password (temporary so we can create an account for them to encourage usage)
+    cookie-id (so we can track their visits)
+    most recent visit (date)

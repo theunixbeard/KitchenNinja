@@ -19,7 +19,7 @@ helpers do
   end
   html << '<li><a href="/about">About</a></li>'
   html << '<li><a href="/contact">Contact</a></li>'
-  html << '<li><a href="/blog">Blog</a></li>'
+  html << '<li><a href="http://kitchenninjas.tumblr.com/">Blog</a></li>'
   html << '<li><a href="/secure/place">Secret</a></li>'
     html << '<li class="dropdown">'
     html << '<a href="#" '
