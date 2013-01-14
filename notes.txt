@@ -6,7 +6,6 @@ Pre-Launch Goals
     Gauge interest via Google Analytics, beta email signup.
 
 Major:
-  Add Google Analytics to layout.erb
   Should site be in a div container-narrow? Or should it be widened
   Homepage w/ link to submit email for beta program
   Add Blog (3rd party software type)
