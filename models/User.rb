@@ -19,6 +19,9 @@ class User
   validates_presence_of :email, :password_hash, :salt
 
   def password_hash_and_salt(password)
+    if password.length <= 6
+      raise 'Hmmmmm! Please use a password that is longer than 6 characters'
+    end
     self.salt = Engine.generate_salt
     self.password_hash = Engine.hash_secret(password, self.salt)
   end

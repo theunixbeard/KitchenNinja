@@ -22,5 +22,3 @@ Major:
 
 
 Minor:
-  Datamapper password min length enforcement
-  Description meta tag for SEO

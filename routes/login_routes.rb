@@ -5,13 +5,17 @@ end
 
 post '/register' do
   logger.info 'post to /register'
-  u = User.new
-  u.email = params['email']
-  u.password_hash_and_salt params['password']
   error = nil
   error_msg = ''
   begin
+    u = User.new
+    u.email = params['email']
+    u.password_hash_and_salt params['password']
     u.save
+  rescue RuntimeError => e
+    # password_hash_and_salt will raise if password is too short
+    error = true
+    error_msg = e.message
   rescue DataMapper::SaveFailureError => e
     logger.error e.resource.errors.inspect
     logger.error e.resource.errors
