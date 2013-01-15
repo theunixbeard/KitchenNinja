@@ -2,9 +2,20 @@
 <div class="jumbotron">
   <h1>Super awesome marketing speak!</h1>
   <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-  <a class="btn btn-large btn-success" href="#">Sign up today</a>
+  <a class="btn btn-large btn-success" href="#signupModal" role="button" data-toggle="modal">Sign up today</a>
 </div>
-
+<div id="signupModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Sign up for the Beta!</h3>
+  </div>
+  <div class="modal-body">
+    <form action='/login' method='post' class="form-inline well">
+      <input type="text" name='email' placeholder="email" autofocus>
+      <input class="btn btn-primary" type='submit' value='Submit'>
+    </form>
+  </div>
+</div>
 <hr>
 
 <div class="row-fluid marketing">
