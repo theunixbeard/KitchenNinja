@@ -9,7 +9,7 @@ Major:
   Homepage w/ link to submit email for beta program
   Auth Features:
     Forgot Password, Remember Me
-  Should site be in a div container-narrow? Or should it be widened
+  Customize title tag per page...
   Create 3 Blog posts on our Tumblr
   About page, Contact page content (Max?)
   Logo Graphic (Max?)
